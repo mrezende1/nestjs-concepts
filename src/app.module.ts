@@ -8,7 +8,7 @@ import { TransformaRespostaInterceptor } from './core/http/transforma-resposta.i
   imports: [UsuarioModule],
   controllers: [],
   providers: [
-    {
+    { 
       provide: APP_FILTER,
       useClass: FitroDeExcecaoHttp
     },
